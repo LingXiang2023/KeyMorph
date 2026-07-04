@@ -1,0 +1,27 @@
+{
+  "checkpoint": "/home/zy/srt/mysterygaussian/pr_main_test/model_zoo/pusnet-0.9/checkpointnew_2175.pt",
+  "data_dir": "/opt/Data_zy/kfy/Stega/PUSNet/pusnet_test_dataset/div2k/test",
+  "resize": 512,
+  "sigma": 20,
+  "batch_size": 2,
+  "max_batches": null,
+  "num_pairs": 50,
+  "metrics": {
+    "stego_psnr": 39.23208620544602,
+    "secret_psnr": 27.407633301910327,
+    "noise_psnr": 22.507478149580617,
+    "denoise_psnr": 32.281807280769414,
+    "stego_ssim": 0.9834960210323332,
+    "secret_ssim": 0.858786770304044,
+    "noise_ssim": 0.45820372581481933,
+    "denoise_ssim": 0.910342612663905,
+    "stego_mae": 1.9991151404380798,
+    "secret_mae": 8.442291421890259,
+    "noise_mae": 15.107766017913818,
+    "denoise_mae": 4.534401640892029,
+    "stego_rmse": 2.9555020427703855,
+    "secret_rmse": 11.185501136779784,
+    "noise_rmse": 19.12290370941162,
+    "denoise_rmse": 6.351587805747986
+  }
+}

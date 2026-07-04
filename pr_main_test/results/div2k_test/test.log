@@ -1,0 +1,12 @@
+26-07-04 15:24:10.303 : ##################################################
+26-07-04 15:24:10.303 : model: pusnet
+26-07-04 15:24:10.303 : checkpoint: /home/zy/srt/mysterygaussian/pr_main_test/model_zoo/pusnet-0.9/checkpointnew_2175.pt
+26-07-04 15:24:10.303 : test data dir: /opt/Data_zy/kfy/Stega/PUSNet/pusnet_test_dataset/div2k/test
+26-07-04 15:24:10.303 : device: cuda:0
+26-07-04 15:24:10.303 : noise sigma: 20
+26-07-04 15:24:10.582 : activate params bytes: 944
+26-07-04 15:25:47.494 : testing, stego_avg_psnr: 39.23, secret_avg_psnr: 27.41, noise_avg_psnr: 22.51, denoise_avg_psnr: 32.28
+26-07-04 15:25:47.494 : testing, stego_avg_ssim: 0.9835, secret_avg_ssim: 0.8588, noise_avg_ssim: 0.4582, denoise_avg_ssim: 0.9103
+26-07-04 15:25:47.494 : testing, stego_avg_mae: 2.00, secret_avg_mae: 8.44, noise_avg_mae: 15.11, denoise_avg_mae: 4.53
+26-07-04 15:25:47.494 : testing, stego_avg_rmse: 2.96, secret_avg_rmse: 11.19, noise_avg_rmse: 19.12, denoise_avg_rmse: 6.35
+26-07-04 15:25:47.494 : metrics saved to: pr_main_test/results/div2k_test
